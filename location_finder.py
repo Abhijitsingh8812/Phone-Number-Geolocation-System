@@ -10,8 +10,8 @@ Original file is located at
 import requests
 
 # Your API Keys
-NUMVERIFY_API_KEY = "19c5e5d7786a38c2e0649c6021384ac1"
-OPENCAGE_API_KEY = "f26zbdae68d4489b9fad06b9287czp0f"
+NUMVERIFY_API_KEY = "numverify api Key"
+OPENCAGE_API_KEY = "opencage api key"
 
 def get_phone_details(phone_number):
     """Fetch phone details from NumVerify API"""
@@ -32,7 +32,7 @@ def get_coordinates(location):
 
 if __name__ == "__main__":
     # Ask user to enter phone number
-    phone_number = input("📱 Enter phone number (with country code, e.g. +919999951151): ")
+    phone_number = input("📱 Enter phone number (with country code, e.g. +919999951150): ")
 
     # Get phone details
     details = get_phone_details(phone_number)
