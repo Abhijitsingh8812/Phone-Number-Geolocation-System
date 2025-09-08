@@ -10,8 +10,8 @@ Original file is located at
 import requests
 
 # Your API Keys
-NUMVERIFY_API_KEY = "19e5e5d7786a38c2e0624c6021384ac1"
-OPENCAGE_API_KEY = "f25abdae68d4489b9fad06b9287caa0f"
+NUMVERIFY_API_KEY = "19c5e5d7786a38c2e0649c6021384ac1"
+OPENCAGE_API_KEY = "f26zbdae68d4489b9fad06b9287czp0f"
 
 def get_phone_details(phone_number):
     """Fetch phone details from NumVerify API"""
